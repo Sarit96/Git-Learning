@@ -9,3 +9,13 @@ function greet() {
 function setName(newName) {
     name = newName
 }   
+
+
+function greet1() {
+    console.log("Hello " + name)
+}   
+
+
+function setName1(newName) {
+    name = newName
+}   
