@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.card .role {
+  color: #007acc;
+  font-weight: bold;
+}
+
+.card .desc {
+  font-size: 0.9rem;
+  color: #333;
+}
