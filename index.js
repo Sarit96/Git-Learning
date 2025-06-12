@@ -19,3 +19,12 @@ function greet1() {
 function setName1(newName) {
     name = newName
 }   
+
+function greet3() {
+    console.log("Hello " + name)
+}   
+
+
+function setName3(newName) {
+    name = newName
+}  
