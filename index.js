@@ -1,4 +1,5 @@
 let name = "Bubun"
+
 console.log("Hello from Swapna")
 
 function greet() {
@@ -28,3 +29,6 @@ function greet3() {
 function setName3(newName) {
     name = newName
 }  
+
+console.log("Hello from Swapna")
+ 
